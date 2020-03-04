@@ -1,0 +1,84 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}, {
+			"path": "pages/index/page1",
+			"style": {
+				"navigationBarTitleText": "Page1",
+				"navigationBarBackgroundColor": "#eee",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/index/page2",
+			"style": {
+				"navigationBarTitleText": "Page2",
+				"navigationBarBackgroundColor": "#eee"
+			}
+		}, {
+			"path": "pages/index/page3",
+			"style": {
+				"navigationBarTitleText": "Page3",
+				"navigationBarBackgroundColor": "#eee"
+			}
+		}, {
+			"path": "pages/index/page4",
+			"style": {
+				"navigationBarTitleText": "Page-4",
+				"navigationBarBackgroundColor": "#eee"
+			}
+		}, {
+			"path": "pages/mainPages/page5",
+			"style": {
+				"navigationBarTitleText": "Page-5",
+				"navigationBarTextStyle": "black"
+			}
+		}
+	],
+
+	"globalStyle": {
+		"navigationStyle": "custom"
+	},
+
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/andy-ADTabbar/home.png",
+				"selectedIconPath": "static/andy-ADTabbar/home-hover.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/index/page1",
+				"iconPath": "static/andy-ADTabbar/order.png",
+				"selectedIconPath": "static/andy-ADTabbar/order-hover.png",
+				"text": "订单"
+			}, {
+				"pagePath": "pages/index/page2",
+				"iconPath": "static/andy-ADTabbar/chart.png",
+				"selectedIconPath": "static/andy-ADTabbar/chart-hover.png",
+				"text": "图表"
+			}, {
+				"pagePath": "pages/index/page3",
+				"iconPath": "static/andy-ADTabbar/my.png",
+				"selectedIconPath": "static/andy-ADTabbar/my-hover.png",
+				"text": "我的"
+			}
+		],
+		"midButton": {
+			"width": "50px",
+			"height": "50px",
+			"iconPath": "static/andy-ADTabbar/midButton.png",
+			"iconWidth": "55px"
+			// "backgroundImage":"static/images/tabbar/plus.png"
+		}
+	}
+}
